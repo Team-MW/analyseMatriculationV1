@@ -65,9 +65,9 @@ def ocr():
         return jsonify({'error': 'Erreur interne'}), 500
 
 # Point d'entrée de l'application Flask
-if __name__ == '__main__':
+#if __name__ == '__main__':
     # Lance le serveur Flask en mode debug sur le port 8080
-    app.run(debug=True, port=8080)
+#   app.run(debug=True, port=8070)
 
     # commentaire générél
     # L32: La ligne 32 utilise la fonction get_info_by_plaque pour vérifier si
