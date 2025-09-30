@@ -1,0 +1,9 @@
+easyocr==1.7.2
+Flask==3.0.3
+flask-babel==4.0.0
+Flask-Cors==5.0.0
+Flask-SQLAlchemy==3.1.1
+numpy==1.26.4
+PyMuPDF==1.25.5
+protobuf==4.25.3
+werkzeug==3.0.1
