@@ -1,5 +1,5 @@
 import sqlite3
-from api.config import DATABASE_PATH
+from .config import DATABASE_PATH
 
 def get_info_by_plaque(numero):
     conn = sqlite3.connect(DATABASE_PATH)

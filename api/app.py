@@ -4,9 +4,9 @@ from PIL import Image
 import io
 import logging
 
-from api.ocr_engine import extract_text
-from api.database import get_info_by_plaque
-from api.models import create_table
+from .ocr_engine import extract_text
+from .database import get_info_by_plaque
+from .models import create_table
 
 app = Flask(__name__)
 CORS(app)
@@ -67,7 +67,7 @@ def ocr():
 # Point d'entrée de l'application Flask
 #if __name__ == '__main__':
     # Lance le serveur Flask en mode debug sur le port 8080
-#   app.run(debug=True, port=8070)
+ #   app.run(debug=True, port=8070)
 
     # commentaire générél
     # L32: La ligne 32 utilise la fonction get_info_by_plaque pour vérifier si

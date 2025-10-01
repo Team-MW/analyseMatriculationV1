@@ -1,5 +1,5 @@
 import sqlite3
-from api.config import DATABASE_PATH
+from .config import DATABASE_PATH
 
 def insert_plaque(numero, proprietaire, vehicule, statut):
     conn = sqlite3.connect(DATABASE_PATH)
