@@ -4,7 +4,7 @@ from PIL import Image
 import io
 import logging
 
-from ocr_engine import extract_text
+from api.ocr_engine import extract_text
 from api.database import get_info_by_plaque
 from api.models import create_table
 
